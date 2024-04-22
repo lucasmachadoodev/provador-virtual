@@ -1,0 +1,480 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+.topper{
+    max-width: 1280;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.nav-bar{
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+}
+
+
+ul{
+    text-transform: uppercase;
+    display: inline-flex;
+    list-style-type: none;
+
+}
+
+ul li a{
+    padding: 35px;
+    text-decoration: none;
+    color: black;
+    /* font-weight: 600; */
+    float: right;
+}
+
+.btn{
+    float: right;
+    color: black;
+    padding: 10px 23px;
+    text-decoration: none;
+    cursor:pointer;
+    text-align: center;
+    margin: 25px;
+    border-radius: 10px 0 ;
+    background-color: #fff;   
+}
+
+
+/* PAGINA INICIAL */
+
+.page-inicial{
+    /* height: 1280px; */
+    background-color: rgb(247, 247, 247);
+    box-shadow: inset 0 0 20px gray;
+    
+}
+
+
+
+h4{ 
+    margin-top: 50px;
+    margin-left: 50px;
+    text-align: justify;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+}
+
+h1{
+    margin-left: 50px;
+    font-size: 40px;
+}
+
+h3{
+    margin-left: 50px;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.btn2{
+    margin-bottom: 100px;
+    margin-top: 50px;
+    border: none;
+    margin-left: 50px;
+    color: black;
+    padding: 25px 23px;
+    text-decoration: none;
+    cursor:pointer;
+    text-align: center;
+    border-radius: 35px 0 ;
+    background-color: #313131;
+    color: white;
+}
+.btn2:hover{
+    background-color: #44155e
+}
+
+.img-cel{
+    position: absolute;
+    left: 50%;
+    top: 14%;
+    width: 450px;
+
+}
+
+.central{
+    background-color: #313131;
+    height: 70px; 
+}
+
+.central #text-central{
+    color: #fff;
+    justify-content: center;
+    padding: 23px 0px;
+
+}
+.central #text-central span{
+    letter-spacing: 13px;
+    float: right;
+    margin-right: 100px;
+}
+
+.img-simbolo img{
+    margin: 50px 50px 0px;
+    display: flex;
+    float: left;
+}
+
+.pagina-two #pagina-two-title{
+    padding: 50px 0px;
+}
+
+/* CONTEUDO PAGINA 2 */
+
+.pagina-two-conteudo{
+    display: flex;
+}
+
+.pagina-two-conteudo h1{
+    margin-top: 100px;
+}
+
+.img-roll{
+    display: flex;
+    float: right;  
+}
+
+.img-roll img{
+    margin-right: 350px;
+  
+}
+
+.btn3-type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    float: right;
+}
+.btn3{
+    padding: 5px 25px;
+    margin: 0px 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 0;
+    background-color: rgb(197, 197, 197);
+    cursor: pointer;
+
+    /* PAGINA 3 */
+}
+
+.pagina-tres-conteudo img{
+    margin: 47px 60px;
+    width: 170px;
+
+}
+
+
+.sidebar {
+    background-color: black;
+    color: white;
+    display: flex;
+      
+ 
+}
+
+.sidebar2{
+    display: flex;
+} 
+
+.sidebar2 img{
+    position: absolute;
+    
+} 
+
+.sidebar h1{
+    margin-top: 250px;
+    float: right;
+}
+
+.sidebar h5{
+    margin-top: 200px;
+}
+
+.sidebar img{
+    position: absolute;
+}
+
+@media screen and (max-width: 428px){
+
+    .topper{
+        margin: 0;
+    }
+
+    .logo{
+        width: 100px;
+    }
+
+    .btn{
+        display: none;
+    }
+    ul{
+        font-size: 10px;
+        padding: 15px;
+    }
+
+    ul li a{
+        padding: 15px 5px;
+        font-size: 8px;
+        text-align: center;     
+    }
+
+    .logo-direita{
+        text-align: center;
+    }
+
+    .img-regua{
+        opacity: 0.2;
+        width: 428px;
+        margin: 0;
+    }
+    .img-cel{
+        position:relative;
+        margin:0;
+        left: 0;
+        float: right;
+        
+    }
+    .img-cel img{
+        float: none;
+        position:relative;
+        width: 350px;
+        justify-content: center;
+        align-items: center;
+        margin: 30px 80px 0px;    
+        
+    }
+
+
+    .btn2{
+        width: 100%;
+        border-radius: 0;
+        margin-bottom:5px;
+        margin-left: 0;
+        margin-right: 0;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .btn2:hover{
+        background-color: #44155e;
+    }
+    
+
+    h4{
+        font-size: 10px;
+        margin-left: 5px;
+        margin-top: 0;
+
+    }
+
+    h1{
+        font-size: 27px;
+        margin-left: 5px;
+        margin-bottom: 15px;
+        margin-top: 25px;
+    }
+    
+    h3{
+        font-size: 17px;
+        margin-left: 5px;
+        margin-top: 35px;
+    }
+
+    .central #text-central{
+        text-align: center;
+        font-size: 19px;
+        
+    }
+
+    
+    .central #text-central span {
+        padding: 0;
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+        float: none;
+    }
+
+    .img-simbolo img{
+        margin: 20px 20px 0px;
+        display: flex;
+        float: left;
+    }
+    .pagina-two #pagina-two-title{
+        padding: 40px 0px;
+        font-size: 20px
+    }
+
+ /* PAGINA 2 */ 
+    .pagina-two-conteudo{
+        display: block;
+        margin: 0;
+    }
+    .pagina-two-conteudo img{
+        width: 100%;
+        margin-left: 5px;
+        
+    }
+
+    .pagina-two-conteudo h1{
+        display: flex;
+        margin: 0;
+        text-align: center;
+    }
+
+    .img-roll{
+        display: block;
+        float: right;
+
+    }
+
+    .img-roll img{
+        width: 50px;
+        margin-right: 5px;
+    }
+
+    .btn3-type{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 35px;
+        float: none;
+    }    
+     
+    .btn3{
+        font-size: 10px;
+        margin: 0;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 360px){
+
+    .topper{
+        margin: 0;
+    }
+
+    .logo{
+        width: 100px;
+    }
+
+    .btn{
+        display: none;
+    }
+    ul{
+        font-size: 10px;
+        padding: 15px;
+    }
+
+    ul li a{
+        padding: 15px 5px;
+        font-size: 8px;
+        text-align: center;     
+    }
+
+    .logo-direita{
+        text-align: center;
+    }
+    .img-regua{
+        opacity: 0.2;
+        width: 428px;
+        margin: 0;
+    }
+  
+    .img-cel img{
+        position: relative;
+        width: 350px;
+        height: auto;
+        display: block;
+        text-align: center;
+        justify-content: center;
+        margin: 30px 45px 0px;  
+        
+    }
+
+
+    .btn2{
+        width: 100%;
+        border-radius: 0;
+        margin-bottom:5px;
+        margin-left: 0;
+        margin-right: 0;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .btn2:hover{
+        background-color: #44155e;
+    }
+    
+
+    h4{
+        font-size: 10px;
+        margin-left: 5px;
+        margin-top: 0;
+    }
+
+    h1{
+        font-size: 27px;
+        margin-left: 5px;
+        margin-bottom: 15px;
+    }
+    
+    h3{
+        font-size: 17px;
+        margin-left: 5px;
+    }
+
+    .central #text-central{
+        text-align: center;
+        font-size: 19px;
+        
+    }
+
+    
+    .central #text-central span {
+        padding: 0;
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+        float: none;
+    }
+
+    .img-simbolo img{
+        margin: 20px 20px 0px;
+        display: flex;
+        float: left;
+    }
+    .pagina-two #pagina-two-title{
+        padding: 40px 0px;
+        font-size: 20px
+    }
+
+
+}
